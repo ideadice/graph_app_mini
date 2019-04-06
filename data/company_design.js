@@ -49,10 +49,11 @@ function set_design(cc){
     }
     if(cc=='475020'){ 
         cc_name='delek'
-        dicelinecolor='#142846'; // Line color at all charts
-        diceareacolor='rgba(224,239,255, 0.2)'; // Area color at all charts
+        dicelinecolor='#ff8c0a'; // Line color at all charts
+        diceareacolor='rgba(224,239,255, 0.0)'; // Area color at all charts
         dicegridcolor='#e8e8e8'; // Grid color at all charts
         document.body.style.background = "#fff"; // Background color
+        $('.chart-container').height(120); // inner chart height
         currency=nis;
     }
     if(cc=='86027'){ 
@@ -229,6 +230,7 @@ function set_design(cc){
         diceareacolor='rgba(12,177,75,0.15)'; // Area color at all charts
         dicegridcolor='#e8e8e8'; // Grid color at all charts
         document.body.style.background = "#fff"; // Background color
+        $('.chart-container').height(60); // inner chart height
         currency=nis;
     }
 }
