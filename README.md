@@ -1,2 +1,3 @@
-# graph_app_mini
-Graph_app - Mini version
+# Graphs application
+master 	- 	Production branch
+dev	-	Development branch

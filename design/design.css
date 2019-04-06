@@ -1,0 +1,113 @@
+body {  
+    margin:0;
+    padding:10px;
+  }
+  .chartsAppMain{
+    display: none;
+  }
+  
+  canvas {
+      border-style: solid;
+      border-width: 1px;
+      background-color: #fff;
+      padding-top:5px;
+      padding-bottom:5px;
+  }
+  
+  .chart-container {
+    position: relative;
+    margin: auto;
+    height: 300px;
+    width: 100%;
+  }
+
+  .mainButtons {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    display: none !IMPORTANT;
+  }
+.btn-dice{
+    background-color:#fff;
+    color:#333;
+    border: 0px solid #333;
+    padding: 5px;
+    margin:4px;
+    cursor: pointer;
+    outline: 0;
+        font-weight: 400;
+}
+.btn-dice:hover{
+    border: 0px solid #333;
+    color:#333;
+    font-weight: 400;
+}
+.btn-dice:focus{
+    background-color:#f0f0f0!important;
+    border: 0px solid #333;
+    color:#333;
+        font-weight: 600;
+}
+#dailyFlag2{
+    cursor: not-allowed; 
+    color:#d8d8d8;
+    font-weight: 400;
+}
+#dailyFlag2:hover{
+    cursor: not-allowed;
+    color:#d8d8d8;
+    font-weight: 400;
+}
+.rz-dice{
+      background-color:#fff;
+    border: 1px solid #386fa7;
+    color:#386fa7;
+    padding: 5px 15px 5px 15px;
+    margin-top:10px; 
+    cursor: pointer;
+}
+  .debug {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 40%;
+    color: #35D329;
+    background-color: black;
+    }
+    .InfoBox{
+       width:100%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       text-align: center;
+       font-family: "Arial", Sans-serif;
+       flex-direction:row;
+       margin:0px;
+       box-sizing: border-box;
+    }
+    .data{
+      line-height: 0px;
+      text-align: center;
+      font-size:13px;
+      padding-left:7px;
+      padding-right:7px;
+    }
+
+@media screen and (max-width: 100px){
+  .data{
+    font-size:10px;
+    width: 100%;
+    padding:0px 0px 0px 0px !important;
+  }
+}
+
+@media screen and (max-width: 800px){
+        .InfoBox{
+       justify-content: center;
+    }
+      .data{
+    font-size:10px;
+  }
+}
