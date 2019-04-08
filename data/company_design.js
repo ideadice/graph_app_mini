@@ -53,7 +53,7 @@ function set_design(cc){
         diceareacolor='rgba(224,239,255, 0.0)'; // Area color at all charts
         dicegridcolor='#e8e8e8'; // Grid color at all charts
         document.body.style.background = "#fff"; // Background color
-        //$('.chart-container').height(120); // inner chart height
+        $('.chart-container').css("height","120px");// inner chart height
         currency=nis;
     }
     if(cc=='86027'){ 
@@ -231,6 +231,7 @@ function set_design(cc){
         dicegridcolor='#e8e8e8'; // Grid color at all charts
         document.body.style.background = "#fff"; // Background color
         //$('.chart-container').height(60); // inner chart height
+        $('.chart-container').css("height","100px");// inner chart height
         currency=nis;
     }
 }
