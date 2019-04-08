@@ -100,10 +100,13 @@ function set_design(cc){
     }
     if(cc=='1082007'){ 
         cc_name='shoam'
-        dicelinecolor='#142846'; // Line color at all charts
-        diceareacolor='rgba(224,239,255, 0.2)'; // Area color at all charts
+        dicelinecolor='#171b51'; // Line color at all charts
+        diceareacolor='rgba(23,27,81,0.0)'; // Area color at all charts
         dicegridcolor='#e8e8e8'; // Grid color at all charts
         document.body.style.background = "#fff"; // Background color
+        $('.chart-container').css("height","100px");// inner chart height
+        document.getElementById("dice_circle").style.borderColor = "#171b51";// Loader circle 01 color
+        document.getElementById("dice_circle_02").style.borderColor = "#171b51";// Loader circle 02 color
         currency=nis;
     }
     if(cc=='1083443'){ 
@@ -234,6 +237,8 @@ function set_design(cc){
         document.body.style.background = "#fff"; // Background color
         //$('.chart-container').height(60); // inner chart height
         $('.chart-container').css("height","100px");// inner chart height
+        document.getElementById("dice_circle").style.borderColor = "#0cb14b";// Loader circle 01 color
+        document.getElementById("dice_circle_02").style.borderColor = "#0cb14b";// Loader circle 02 color
         currency=nis;
     }
 }
