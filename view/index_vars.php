@@ -64,7 +64,7 @@ INFO:
 
 <div  ng-controller="mainController">
 
-<div id="contentLoader" ng-show="loaderStatus"  class="lds-ripple"><div></div><div></div></div>
+<div id="contentLoader" ng-show="loaderStatus"  class="lds-ripple"><div id="dice_circle"></div><div id="dice_circle_02"></div></div>
 
 <div id="appCharts">
 

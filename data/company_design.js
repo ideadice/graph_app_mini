@@ -54,6 +54,8 @@ function set_design(cc){
         dicegridcolor='#e8e8e8'; // Grid color at all charts
         document.body.style.background = "#fff"; // Background color
         $('.chart-container').css("height","120px");// inner chart height
+        document.getElementById("dice_circle").style.borderColor = "#ff8c0a";// Loader circle 01 color
+        document.getElementById("dice_circle_02").style.borderColor = "#ff8c0a";// Loader circle 02 color
         currency=nis;
     }
     if(cc=='86027'){ 
