@@ -11,8 +11,8 @@ function set_design(cc){
         cc_name='univo'
         dicelinecolor='#03753b'; // Line color at all charts
         diceareacolor='rgba(3,117,59,0.2)'; // Area color at all charts
-        dicegridcolor='#03753b'; // Grid color at all charts
-        document.body.style.background = "#fff"; // Background color
+        dicegridcolor='#f2f2f2'; // Grid color at all charts
+        document.body.style.background = "#ffffff"; // Background color
         $('.chart-container').css("height","120px");// inner chart height
         document.getElementById("dice_circle").style.borderColor = "#03753b";// Loader circle 01 color
         document.getElementById("dice_circle_02").style.borderColor = "#03753b";// Loader circle 02 color
